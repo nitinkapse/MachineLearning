@@ -1,0 +1,240 @@
+Machine Learning link
+http://sundog-education.com/datascience/
+---------------
+coefficient 
+Intercept
+--------------
+Machine Learning Vs Statistics
+https://www.kdnuggets.com/2016/11/machine-learning-vs-statistics.html
+https://www.analyticsvidhya.com/blog/2015/07/difference-machine-learning-statistical-modeling/
+Machine Learning statistics
+https://medium.com/technology-nineleaps/basics-of-statistics-for-machine-learning-engineers-bf2887ac716c
+
+--------------
+Very good Article on initial understanding
+https://machinelearningmastery.com/supervised-and-unsupervised-machine-learning-algorithms/
+https://www.analyticsvidhya.com/blog/2017/09/common-machine-learning-algorithms/
+
+Regression Analysis: Very good article
+https://www.analyticsvidhya.com/blog/2015/08/comprehensive-guide-regression/
+
+Podcast must listen
+https://www.analyticsvidhya.com/blog/2018/01/10-data-science-machine-learning-ai-podcasts-must-listen/
+
+
+Machine Learing
+	Supervise Learning
+		- Classification
+			- Binary Classification
+				- Linear SVMs
+				- Logistic Regression
+				- Decision Trees
+				- Naive Bayes
+			- Multiclass Classification
+				- Decision
+				- Naive Bayes
+		- Regression
+			- Linear Regression
+				- Linear Least Squares
+				- Logistic Regression
+			- Lasso
+			- Ridge Regression
+			- Decision Trees	
+	Unsupervise Learning
+		- Clustering
+			- K-Means
+		- Dimensionality reduction (Association)
+			- Singular Value Decomposition (SVD)
+			- Principle Component Analysis (PCA)
+	Semi-Supervised Learning 
+		- Classification
+		- Regression
+	Reinforcement Learning
+		
+Categories of ML techniques
+- Classification
+- Clustering
+- Collaborative Filtering	
+
+	
+
+
+
+
+New framework machine learning
+apache mxnet vs tensorflow
+
+Over the past year I've reviewed half a dozen open source machine learning and/or deep learning frameworks: Caffe, Microsoft Cognitive Toolkit (aka CNTK 2), MXNet, Scikit-learn, Spark MLlib, and TensorFlow.
+
+
+The supervised algorithms can be sub-categorized into regression, classification and anomaly detection or dimension reduction.
+
+classification, clustering and recommender systems (collaborative filtering).
+
+An iterative process of improving the accuracy of a algorithm to an acceptable level is used to develop a prediction model. 
+
+With supervised algorithms you can use binary/multiclass classification or linear regression. 
+
+Binary classification is used when you have two distinct categories to predict. For example you can use it to predict if a transaction is fraudulent or not. Algorithms available in Spark for doing binary classification are logistic regression, decision trees and random forests. Linear support vector machines (SVM). 
+
+
+
+The reinforcement algorithms are another set of machine learning algorithms which fall between unsupervised and supervised learning. For each training example, there is a target label in supervised learning; there are no labels at all in unsupervised learning; the reinforcement learning consists of time-delayed and sparse labels – the future rewards.
+
+
+
+- Decision Tree --> Flight Data analysis
+- Decision Tree --> Customer Churn Analysis
+---------------
+- Learn ML Pipeline
+- Linear Regression
+	https://databricks.com/product/getting-started-guide/machine-learning
+	http://go.databricks.com/hubfs/notebooks/Pop._vs._Price_LR.html
+- Read article
+ 	https://community.hortonworks.com/articles/53903/spark-machine-learning-pipeline-by-example.html- K-mean algorithm
+	https://github.com/mahmoudparsian/data-algorithms-book/tree/master/src/main/java/org/dataalgorithms/machinelearning
+	https://docs.microsoft.com/en-us/azure/hdinsight/hdinsight-apache-spark-machine-learning-mllib-ipython
+	https://www.dezyre.com/data-science-in-python-tutorial/neural-network-tutorial
+- good article
+	https://www.eduonix.com/blog/software-development/learn-run-machine-learning-algorithms-using-spark/  --> IMP
+	http://web.cs.ucla.edu/~mtgarip/linear.html
+
+Good Explaination of Alogrithm --> http://web.cs.ucla.edu/~mtgarip/linear.html
+
+https://www.packtpub.com/books/content/machine-learning-using-spark-mllib
+https://www.infoq.com/articles/apache-spark-machine-learning  --> IMP
+https://www.infoq.com/news/2014/04/Alchemy-Deep-Learning-Landscape
+https://github.com/mahmoudparsian/data-algorithms-book/tree/master/src/main/java/org/dataalgorithms/machinelearning
+
+
+Good article on spark
+https://www.infoq.com/articles/apache-spark-introduction?utm_source=apachesparkseries&utm_medium=link&utm_campaign=internal
+
+
+Supervised Learning
+
+Collaborative Filtering
+https://commons.wikimedia.org/wiki/File:Collaborative_Filtering_in_Recommender_Systems.jpg
+
+Recommendation Engine
+https://medium.com/@cfpinela/recommender-systems-user-based-and-item-based-collaborative-filtering-5d5f375a127f
+-----------------
+category variable
+regression --> predict numerica value --> what will be my stock market value?
+Linear model
+and non linear model
+
+feature 
+label
+
+Manhatan distance
+Euclenian distance
+--------------
+mean
+median
+mode
+
+types of data
+Numerica data
+	discrete data
+	continuous data
+categorical data
+Ordinal
+
+outlier
+
+Variance 
+Standard Deviation
+sample Variance
+
+probabilty density function
+probability mass function
+
+Gaussian function
+Exponential probability distribution function
+Probability mass function
+Binomial probability mass function
+poisson PDF
+
+percentile
+Inter Quartile Range
+Moments
+	Kurtosis
+	Skewed
+	
+Box & Whisker Plot
+Covariance and correlation
+Conditional probability
+
+Naive Bayes
+Linear Regression
+	Least square (r-squared)
+	Gradient Descent
+	Polynomial Regression (maltivariate Regression)
+Logistic Regression
+Multi-level models
+
+K-fold cross validation
+countvectorizer
+Entropy
+Ensemble Learning
+	Bagging
+	Boosting
+	Bucketing
+	Stacking
+Support Vector Machines
+Collaborative filtering
+	User based
+	Item based
+Correlation
+	Pearson
+Dimentionality Reduction
+	Principle Component Analysis  --> (Need more understanding)
+		eigenvectors
+		Singular Value Decomposition
+Reinforcement Learing
+	Markov decision processes (MDPs)
+	Descrete time Stochastic control process
+Bias & variance
+K-fold cross validations
+	SVC
+		linear
+		polynomial
+TF (Term Frequecy) & IDF (Inverted Document Frequency)
+Labels and Features
+Experimental Design
+	A/B Test
+	T-Test & P-values
+Deep Learning  (http://sundog-education.com/deep-learning/)
+	Neural network
+		Linear Threshold Unit
+		Back propogation
+Deep Learning Pre-requisites
+	Gradiant Descent 
+	autodiff
+	softmax
+	
+
+	
+----------------
+Installation
+Next we're going to do a lecture on decision trees. This involves producing pretty little flowcharts automatically. It's amazing stuff!
+
+But in order for the code to work, you need to install some software called "GraphViz" first.
+
+The easiest way to do this is through the GraphViz website:
+
+http://www.graphviz.org/Download..php
+
+You then need to add GraphViz's bin folder into your PATH environment variable. On Windows, you can do this through the System control panel - hit advanced system settings, and you'll see a button for environment variables.
+
+If you'd rather not mess with this, that's OK - just watch the lecture and you'll understand what's going on. You can always come back to it later.
+
+On MacOS, you can also use Homebrew to install graphviz if you're familiar with it. Using MacPorts is also an option, doing something like this from a terminal prompt:
+----------------
+
+
+	
+
+	
+
